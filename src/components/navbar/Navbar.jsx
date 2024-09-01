@@ -13,10 +13,10 @@ function Navbar() {
           <img src="/logo.png" alt="" />
           <span>LamaEstate</span>
         </a>
-        <a href="/">Home</a>
-        <a href="/list">Room List</a>
-        <a href="/contact">Contact</a>
-        <a href="/">Agents</a>
+        <Link to="/">Home</Link>
+        <Link to="/list">Room List</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/">Agents</Link>
       </div>
       <div className="right">
         {user ? (
